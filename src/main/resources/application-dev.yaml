@@ -1,0 +1,16 @@
+eureka:
+  instance:
+    preferIpAddress: true
+    hostname: eureka-0
+  client:
+    service-url:
+      defaultZone: http://eureka-0.eureka-service.default.svc.cluster.local:8761/eureka
+spring:
+  data:
+    mongodb:
+      uri:  mongodb+srv://yogeshkadam1729:6n6cLLCTH1nIhl26@roboelectric-cluster.rbzrrxr.mongodb.net/orderdb
+      host: roboelectric-cluster.rbzrrxr.mongodb.net
+      port: 27017
+      database: orderdb
+      repositories:
+        enabled: true
