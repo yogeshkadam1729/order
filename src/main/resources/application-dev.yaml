@@ -8,8 +8,8 @@ eureka:
 spring:
   data:
     mongodb:
-      uri:  mongodb+srv://yogeshkadam1729:6n6cLLCTH1nIhl26@roboelectric-cluster.rbzrrxr.mongodb.net/orderdb
-      host: roboelectric-cluster.rbzrrxr.mongodb.net
+      uri:
+      host:
       port: 27017
       database: orderdb
       repositories:
